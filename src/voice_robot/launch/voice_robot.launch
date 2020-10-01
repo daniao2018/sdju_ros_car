@@ -1,0 +1,23 @@
+<launch>
+<node name="xf_tts_node" pkg = "voice_robot" type = "xf_tts_node" output = "screen">
+</node>
+<node name="xf_asr_node" pkg = "voice_robot" type = "xf_asr_node" output = "screen">
+</node>
+<node name="plug_node_py" pkg = "voice_robot" type = "center_plug.py" output = "screen">
+</node>
+<node name="tuling_node_py" pkg = "voice_robot" type = "nlu_tuling.py" output = "screen">
+</node>
+<node name="email_node_py" pkg = "voice_robot" type = "send_email.py" output = "screen">
+</node>
+<node name="translate_node_py" pkg = "voice_robot" type = "baidu_translate.py" output = "screen">
+</node>
+<node name="music_node_py" pkg = "voice_robot" type = "get_music.py" output = "screen">
+</node>
+<node name="hwtts_node_py" pkg = "voice_robot" type = "tts_huawei.py" output = "screen">
+</node>
+<node name="kuanlu_node_py" pkg = "voice_robot" type = "kua_nlu.py" output = "screen">
+</node>
+<node name="control_move_py" pkg = "voice_robot" type = "control_move.py" output = "screen">
+</node>
+</launch>
+

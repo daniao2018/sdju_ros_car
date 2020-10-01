@@ -1,0 +1,8 @@
+prefix=/home/daniao/catkin_ws/install
+
+Name: snowboy_wakeup
+Description: Description of snowboy_wakeup
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

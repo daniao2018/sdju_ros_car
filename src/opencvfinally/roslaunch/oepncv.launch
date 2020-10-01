@@ -1,0 +1,7 @@
+<launch>
+<node name="opencv_node" pkg = "opencvfinally" type = "follerw.py" output = "screen">
+</node>
+<node name="pub_opencv_node" pkg = "opencvfinally" type = "pubopencv.py" output = "screen">
+</node>
+
+</launch>
